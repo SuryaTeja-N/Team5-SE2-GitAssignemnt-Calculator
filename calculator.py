@@ -15,3 +15,9 @@ def divide(x, y):
     raise ValueError("Cannot divide by zero!")
     return x / y
 
+def sqrt(x):
+  """Square root"""
+  if y == 0:
+    raise ValueError("Cannot divide by zero!")
+  return x ** (1/2)
+
