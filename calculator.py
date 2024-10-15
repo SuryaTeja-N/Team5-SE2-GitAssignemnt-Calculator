@@ -21,3 +21,6 @@ def sqrt(x):
     raise ValueError("Cannot divide by zero!")
   return x ** (1/2)
 
+def mod(x, y):
+  """Modulus"""
+  return x % y
